@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box; 
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(HD-wallpaper-church-mariacki-in-krakow-poland-poland-krakow-church-square\ -\ Copy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0 8%;
+  position: relative;
+}
+
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.content h1 span {
+  color: #ff3753;
+}
+
+.launch-time {
+  display: flex;
+}
+
+.launch-time div {
+  flex-basis: 100px;
+}
+
+.launch-time div p {
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+
+.plane {
+  width: 300px;
+  color: #fff;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  animation: plane 5s ease-in forwards infinite;
+}
+
+@keyframes plane {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+ p {
+  font-size: 30px;
+  font-weight: 300;;
+ }
